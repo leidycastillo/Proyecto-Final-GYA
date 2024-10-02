@@ -13,23 +13,22 @@ Proyecto final de Almacenamiento y Gestión de datos de la Universidad Autónoma
 ---
 
 ## Descripción del Problema
-En este proyecto, abordamos la problemática relacionada con la optimización del tiempo de viaje de camiones que transportan productos diversos. Los tiempos de entrega pueden verse afectados por una amplia variedad de factores, como el tipo de producto, la configuración del vehículo y el tiempo de espera en los puntos de carga y descarga. La finalidad es predecir con precisión estos tiempos y mejorar la eficiencia logística.
+En este proyecto, abordamos la problemática relacionada con la optimización del tiempo de viaje de camiones que transportan productos diversos. Los tiempos de entrega pueden verse afectados por una amplia variedad de factores, como el tipo de producto, la configuración del vehículo y el tiempo de espera en los puntos de carga y descarga. La finalidad es identificar patrones en los tiempos de entrega de productos, ya sea por la naturaleza de los mismos, la distancia entre origen y destino, entre otros..
 
 ---
 
 ## Contenido del Repositorio
 Este repositorio contiene los archivos necesarios para reproducir el análisis de datos y la modelización predictiva de los tiempos de viaje de camiones. Los elementos principales que encontrarás son:
 
-- **Dataset original**: Archivo de datos en formato `.csv` que incluye toda la información relevante sobre el transporte de carga.
+- **Dataset original**: Archivo de datos en formato `.txt` que incluye toda la información relevante sobre el transporte de carga.
 - **Notebook de Jupyter**: Un archivo `.ipynb` con el código de preprocesamiento, análisis exploratorio y modelado.
-- **Modelo entrenado**: Archivos relacionados con el modelo predictivo, entrenado en los datos.
 - **Visualizaciones**: Gráficas y resultados obtenidos durante el análisis de los datos.
 - **Script de conexión SQL**: Código para la conexión y manipulación de la base de datos con SQLite3.
 
 ---
 
 ## Descripción de los Datos
-El dataset utilizado consta de **562,090 entradas** relacionadas con viajes de camiones. Cada entrada corresponde a un viaje individual con las siguientes **24 características**:
+El dataset utilizado consta de **961,500 entradas** relacionadas con viajes de camiones. Cada entrada corresponde a un viaje individual con las siguientes **24 características**:
 
 - **Ejemplos de características**:
   - `NATURALEZA`: Tipo de carga (normal, peligrosa, refrigerada, etc.).
